@@ -23,24 +23,28 @@ We have used two different models for the prediction of the target value. The tw
 Accuracy, Precision, Recall, F1-score:
 
 **Random Forest Classifier with Dataset1:**
+
 Accuracy: 81.2
 Precision: 0.81
 Recall: 0.81
 F1-score: 0.81
 
 **Random Forest Classifier with Dataset2:**
+
 Accuracy: 89.2
 Precision: 0.89
 Recall: 0.89
 F1-score: 0.89
 
 **Support Vector Classifier with Dataset1:**
+
 Accuracy: 89.2
 Precision: 0.89
 Recall: 0.89
 F1-score: 0.89
 
 **Support Vector Classifier with Dataset2:**
+
 Accuracy: 95.1
 Precision: 0.95
 Recall: 0.95
@@ -48,7 +52,7 @@ F1-score: 0.95
 
 **Comparison:**
 
-We have used the F1-score and root mean square error measures to compare the performance of two models.
+The F1-score and root mean square error measures were used to compare the performance of two models.
 F1-score: The closer is value of f1-score to 1, the better the performance of the model.
 Root Mean Square Error: The closer the value of Root Mean Square Error to 0, the better the performance of the model.
 For Dataset1 the Random Forest classifier gives the accuracy of 81.2 with the f1-score of 0.81 and Root Mean square error of 0.44, on the contrary, the Support Vector classifier gives the accuracy of 89.2 on the same dataset with the f1-score of 0.89 and Root Mean Square Error of 0.32. Therefore, Support Vector Classifier if performing good on Dataset1.
